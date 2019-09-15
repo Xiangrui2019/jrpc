@@ -1,8 +1,8 @@
 version: "2"
 
 services:
-  dogego-mini:
-    image: dogego-mini
+  jrpc:
+    image: jrpc
     restart: always
     environment:
       - ADDR=:3000
