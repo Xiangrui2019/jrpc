@@ -8,6 +8,7 @@ services:
       - ADDR=:3000
       - TLS_PEM=./certs/cert.pem
       - TLS_KEY=./certs/cert.key
+      - SENTRY_DSN=
       - CORS_DOMAIN=*
       - GIN_MODE=debug
     ports:
