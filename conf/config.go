@@ -1,7 +1,13 @@
 package conf
 
-import "github.com/joho/godotenv"
+import (
+	"jrpc/modules"
+
+	"github.com/joho/godotenv"
+)
 
 func init() {
 	godotenv.Load()
+
+	modules.InitAllModules()
 }
