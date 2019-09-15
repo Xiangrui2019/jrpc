@@ -2,6 +2,7 @@ package middlewares
 
 import (
 	"jrpc/modules"
+
 	"github.com/gin-contrib/sentry"
 	"github.com/gin-gonic/gin"
 )
